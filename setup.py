@@ -9,7 +9,7 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
 version = ""
-with open("ezdb/__init__.py") as file:
+with open("ez_db/__init__.py") as file:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', file.read(), re.MULTILINE).group(1)
 
 description = "Async sqlite database handler for the faint of heart."
