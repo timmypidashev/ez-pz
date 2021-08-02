@@ -25,7 +25,7 @@ import ez_db as db
 
 db = db.DB(db_path="./database/database.db")
 
-db.execute("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, username TEXT, password TEXT)")
+db.execute("CREATE TABLE users (id INTEGER PRIMARY KEY, username TEXT, password TEXT)")
 db.commit()
 ```
 A little more complex with .sql files:
