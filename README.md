@@ -18,7 +18,7 @@ ez-db is hosted on **[PyPI](https://pypi.org/project/ez-db/)**, so the installat
 ```bash
 pip install ez-db
 ```
-Also dont forget to install **[asqlite](https://github.com/Rapptz/asqlite)**. It is not currently hosted on PyPI
+Also dont forget to install **[asqlite](https://github.com/timothypidashev/asqlite)**. It is not currently hosted on PyPI
 so run this command to install:
 ```bash
 pip install git+https://github.com/Rapptz/asqlite
@@ -55,8 +55,7 @@ async def run():
     await db.commit()
     
     """
-    Queries requiring tuples[] or multiple variables, should be put into a generator, like so:
-    This will be fixed in a later release.
+    Queries requiring tuples[] or multiple variables, should be encapsulated by another set of `()`
     """
     level, exp = (await db.record(f"SELECT level, exp FROM users WHERE UserID = {user.id}")[0])
 
