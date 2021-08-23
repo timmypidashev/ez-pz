@@ -67,4 +67,4 @@ if __name__ == "__main__":
 # Thats It!
 Join the Discord server for more info and help on this package and many other projects:
 
-[![Conside joining my Discord server!](https://invidget.switchblade.xyz/EDRjZdkGBG)](https://discord.gg/EDRjZdkGBG)
+[![Consider joining my Discord server!](https://invidget.switchblade.xyz/EDRjZdkGBG)](https://discord.gg/EDRjZdkGBG)
