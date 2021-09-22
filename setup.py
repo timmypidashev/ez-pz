@@ -16,7 +16,7 @@ description = "Async sqlite database handler for the faint of heart."
 long_description = "A package that simplifies async database configuration with simple to understand functions!"
     
 setup(
-    name="ez-db",
+    name="ez_db",
     version=version,
     author="Timothy Pidashev",
     url="https://github.com/timothypidashev/ez-db",
