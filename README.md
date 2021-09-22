@@ -27,7 +27,7 @@ pip install git+https://github.com/Rapptz/asqlite
 # Sync Usage
 As simple as can get:
 ```python
-import ez_db as db 
+import ez_pz as db 
 
 db = db.DB(db_path="./database/database.db")
 
@@ -36,7 +36,7 @@ db.commit()
 ```
 A little more complex with .sql files:
 ```python
-import ez_db as db 
+import ez_pz as db 
 
 db = db.DB(db_path="./database/database.db", build_path="./database/build.sql")
 
@@ -45,7 +45,7 @@ db.build()
 
 # Async Usage
 ```python
-import ez_db as db
+import ez_pz as db
 import asyncio
 
 db = db.AsyncDB(db_path="./database/database.db", build_path="./database/build.sql")
