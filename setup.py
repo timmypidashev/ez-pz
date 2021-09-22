@@ -9,14 +9,14 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
 version = ""
-with open("ez_db/__init__.py") as file:
+with open("ez_pz/__init__.py") as file:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', file.read(), re.MULTILINE).group(1)
 
 description = "Async sqlite database handler for the faint of heart."
 long_description = "A package that simplifies async database configuration with simple to understand functions!"
     
 setup(
-    name="ez_db",
+    name="ez_pz",
     version=version,
     author="Timothy Pidashev",
     url="https://github.com/timothypidashev/ez_db",
