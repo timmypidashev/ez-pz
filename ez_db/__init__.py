@@ -3,7 +3,7 @@ from sqlite3 import connect
 import asyncio
 import asqlite
 
-__version__ = "0.0.3"
+__version__ = "0.0.1"
 
 class DB:
     """Defines a database instance"""
