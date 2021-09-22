@@ -19,7 +19,7 @@ setup(
     name="ez_db",
     version=version,
     author="Timothy Pidashev",
-    url="https://github.com/timothypidashev/ez-db",
+    url="https://github.com/timothypidashev/ez_db",
     author_email="<pidashev.tim@gmail.com>",
     description=description,
     long_description_content_type="text/markdown",
