@@ -1,30 +1,21 @@
-# ez-pz 
-
+# A simple, lightweight, multi-function utility library.
 [![CodeFactor](https://www.codefactor.io/repository/github/timmypidashev/ez_pz/badge)](https://www.codefactor.io/repository/github/timmypidashev/ez_pz)
 [![Discord](https://discord.com/api/guilds/791160100567384094/embed.png)](https://discord.gg/EDRjZdkGBG)
 [![Python](https://img.shields.io/pypi/pyversions/discord.py.svg)](https://pypi.python.org/pypi/discord.py)
 [![wakatime](https://wakatime.com/badge/user/b920b284-3cde-4cd4-b72e-f7f22d050b16/project/794a858c-e826-496e-8982-5da77e0dbb09.svg)](https://wakatime.com/badge/user/b920b284-3cde-4cd4-b72e-f7f22d050b16/project/794a858c-e826-496e-8982-5da77e0dbb09)
 
-A simple to use database handler using sqlite3
-
 # Features
-* Building from .sql files
-* General query commands
+* Fast sqlite database handler with `async` support
+* Simple logging module [work in progress]
 * Very simple and easy to use!
-* Sync and Async support!
 
 # Installation
 ez-pz is hosted on **[PyPI](https://pypi.org/project/ez-pz/)**, so the installation process is as simple as:
 ```bash
 pip install ez-pz
 ```
-Also don't forget to install **[asqlite](https://github.com/timothypidashev/asqlite)**. It is not currently hosted on PyPI
-so run this command to install:
-```bash
-pip install git+https://github.com/Rapptz/asqlite
-```
 
-# Sync Usage
+# Database
 As simple as can get:
 ```python
 import ez_pz as db 
