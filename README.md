@@ -3,7 +3,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/timmypidashev/ez_pz/badge)](https://www.codefactor.io/repository/github/timmypidashev/ez_pz)
 [![Discord](https://discord.com/api/guilds/791160100567384094/embed.png)](https://discord.gg/EDRjZdkGBG)
 [![Python](https://img.shields.io/pypi/pyversions/discord.py.svg)](https://pypi.python.org/pypi/discord.py)
-[![wakatime](https://wakatime.com/badge/github/timothypidashev/ez-db.svg)](https://wakatime.com/badge/github/timothypidashev/ez-db)
+[![wakatime](https://wakatime.com/badge/user/b920b284-3cde-4cd4-b72e-f7f22d050b16/project/794a858c-e826-496e-8982-5da77e0dbb09.svg)](https://wakatime.com/badge/user/b920b284-3cde-4cd4-b72e-f7f22d050b16/project/794a858c-e826-496e-8982-5da77e0dbb09)
 
 A simple to use database handler using sqlite3
 
